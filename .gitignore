@@ -1,4 +1,6 @@
 #Word files
-.docx
+*.docx
 # PDF files
-.pdf
+*.pdf
+# Compressed files
+*.zip
