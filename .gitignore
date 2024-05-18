@@ -4,3 +4,5 @@
 *.pdf
 # Compressed files
 *.zip
+# Text files
+*.txt
