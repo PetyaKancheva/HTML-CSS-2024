@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+p {
+    font-size: large;
+}
+
+.highlight {
+    background-color: aquamarine;
+}
+
+#main-title {
+    color: rgb(62, 99, 7)
+}
+
+#special-paragraph {
+    font-style: italic;
+
+}
+
+ul>li {
+    list-style:symbols();
+
+}
