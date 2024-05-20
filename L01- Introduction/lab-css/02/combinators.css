@@ -1,0 +1,19 @@
+h1{
+    color: green;
+}
+
+div p {
+    color: blue;
+}
+
+ul>li {
+    list-style-type: square;
+}   
+
+p + p {
+    background-color: lightgray;
+}
+
+p ~ span{   
+    font-weight: bold;
+}

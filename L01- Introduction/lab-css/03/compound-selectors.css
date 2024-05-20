@@ -1,0 +1,20 @@
+h1{
+    color:green;
+}
+
+p.highlight{
+    font-size: 18px;
+    color: aqua;
+}
+div#special{
+    background: orange;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+}
+a[href^="https"]{
+    border-bottom: 1px orange;
+    color: orange;
+
+}
+p.fancy.highlight{
+    background: black;
+}

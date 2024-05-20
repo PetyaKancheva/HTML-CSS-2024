@@ -7,7 +7,7 @@ p {
 }
 
 .highlight {
-    background-color: aquamarine;
+    background: aquamarine;
 }
 
 #main-title {
@@ -20,6 +20,10 @@ p {
 }
 
 ul>li {
-    list-style:symbols();
+    list-style: square;
+    color: grey
+}
 
+div {
+    background: blanchedalmond;
 }
