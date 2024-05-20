@@ -6,3 +6,5 @@
 *.zip
 # Text files
 *.txt
+#Temporary files
+*.tmp
