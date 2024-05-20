@@ -8,3 +8,5 @@
 *.txt
 #Temporary files
 *.tmp
+# Folder with lecure materials
+Documentation/
