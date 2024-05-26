@@ -1,7 +1,24 @@
 h1{
     color:green
 }
+nav ul li a{
+    color:green
+}
 
-nav li{
-    
+nav li:last-child{
+    font-style: italic;
+}
+div section > h2{
+    font-style: oblique;
+}
+section + figure{
+    background:chartreuse
+
+}
+section ~ section{
+    background-color: aquamarine;
+}
+
+li figcaption {
+    border: 1px solid blue;
 }

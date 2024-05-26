@@ -1,0 +1,22 @@
+h2{
+    color:green;
+}
+
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.simple > li{ 
+    list-style-type: none;
+}
+article.highlighted + article{
+    background-color: red;
+}
+
+h2 ~ p{
+    font-style: italic;
+}
+
+li > ul > li> a#important{
+    color: green;
+}
