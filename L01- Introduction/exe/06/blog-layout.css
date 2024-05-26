@@ -1,0 +1,18 @@
+footer{
+    font-size: smaller;
+}
+.author{
+   font-style: italic;
+}
+
+nav{
+    border-style: ridge;
+}
+.media-links a:hoover{
+    font-size: smaller;
+    color:red
+}
+
+ul.media-links{
+    list-style-type: none;
+}
