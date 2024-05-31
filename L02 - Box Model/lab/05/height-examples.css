@@ -2,3 +2,24 @@ body{
    /* background: red;*/
 
 }
+div {
+    border: 1px solid rgb(161, 161, 180);
+    padding: 1%;
+    margin-bottom: 2px;
+}
+
+.fixed{
+    height: 200px
+}
+
+.percentage {
+    height: 50%;
+}
+
+.viewport{
+    height: 50vh;
+}
+.min-max{
+    min-height: 100px;
+    max-height: 300px;
+}

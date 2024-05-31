@@ -1,0 +1,16 @@
+div{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 2px;
+    border: 2px solid black;
+}
+
+.visible{
+    overflow:visible;
+}
+.hidden{
+    overflow:hidden;
+}
+.scroll{
+    overflow:scroll;
+}

@@ -2,10 +2,6 @@ body{
     *background:blue;
 }
 
-div {
-    border:1px solid blue;
-    padding: 1em;
-}
 
 .fixed{
     width:300px;

@@ -1,0 +1,23 @@
+div{
+    margin-bottom: 2px;
+    border: 2px solid grey;
+    width: 50%;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.exactSize{
+    font-size: 24px;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+.Italic{
+    font-style: italic;
+}
+.small{
+    font-variant: small-caps;
+}
