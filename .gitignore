@@ -10,3 +10,4 @@
 *.tmp
 # Folder with lecure materials
 Documentation/
+*png
