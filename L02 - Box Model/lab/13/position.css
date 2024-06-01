@@ -1,0 +1,33 @@
+section{
+    border: 1px solid black;
+    padding: 2em;
+    position:relative;
+   
+}
+
+div.item{
+
+    border: 1px solid black;
+    padding:0.5em;
+    width: 5em;
+    height: 5em;
+}
+
+.static .item:nth-child(2){
+    color: blue;
+    
+}
+.relative .item:nth-child(2){
+    
+    position:relative;
+    left: 5em;
+    top: 2em;
+    background-color: lightgreen;
+}
+.relative-absolute .item:nth-child(2){
+    
+    position:absolute;
+    left: 4em;
+    top: 4em;
+    background-color: lightgreen;
+}
