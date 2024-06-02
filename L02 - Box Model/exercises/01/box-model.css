@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.box-model div {
+    border: 1px dashed black;
+
+}
+.box-model{
+    max-height: 600;
+    margin:4em auto;
+}
+p{
+    color:black;
+    height:0;
+}
+
+.margin{
+    /* margin:120px; */
+    width: 600px;
+    background-color: lightsalmon;
+    padding-left: 10px;
+}
+.border{
+    margin:30px 30px 30px 30px;
+    background-color: bisque;
+    padding-left: 10px;
+}
+.padding{
+    margin:30px 30px 30px 30px;
+    padding-left: 10px;
+    background-color: 85eb85;
+}
+.content{
+    margin:30px 30px 30px 30px;
+    padding: 20px 20px 30px 20px;
+    background-color: lightskyblue;
+    text-align: center;
+   
+}
