@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px ;
+    line-height: 1em;
+    font-family: Lato;
+    
+}
+img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: lightgrey;
+    padding: 2em;
+}
+
+.card{
+
+    display: block;
+    text-decoration: none;
+    background:white;
+    max-width: 300px;
+    margin:0em  auto;
+    overflow: hidden;
+    color:black;
+    border-radius: 0.3em;
+    box-shadow: 0em 0em 0em 0.1em rgb(0, 0, 0 , 0.1);
+    
+    
+}
+.card span{
+    display:block;
+}
+.card .content , .card .footer{
+    
+    padding: 1em;
+}
+
+.card .title{
+    font-weight: bold;
+    padding-bottom: 0.5em;  
+}
+.card .content{
+    padding-bottom: 0.5em;
+}
+.card .footer{
+    overflow: hidden;
+   
+}
+.card .footer span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+}
+.card:hoover .title , 
+.card:hoover .footer{
+    color:orange;
+}
+
+.card:hoover{
+    color: aqua;
+}

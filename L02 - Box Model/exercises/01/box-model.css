@@ -8,7 +8,7 @@
 
 }
 .box-model{
-    max-height: 600;
+    max-width: 600px;
     margin:4em auto;
 }
 p{
@@ -18,7 +18,7 @@ p{
 
 .margin{
     /* margin:120px; */
-    width: 600px;
+    
     background-color: lightsalmon;
     padding-left: 10px;
 }
@@ -30,7 +30,7 @@ p{
 .padding{
     margin:30px 30px 30px 30px;
     padding-left: 10px;
-    background-color: 85eb85;
+    background-color: #85eb85;
 }
 .content{
     margin:30px 30px 30px 30px;

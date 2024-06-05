@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font: 16px 1.5em;
+    font-family: Lato,sans-serif;
+}
+
+body{
+    padding: 2em;
+}
+
+
+
+.container{
+    max-width:1000px;
+    margin: auto;
+    padding: 1em;
+}
+
+.container section{
+    border: 1px solid lightgray;
+}
+
+summary{
+    font-weight: 1000;
+   /*  padding:1em;* */
+   list-style: none;
+    
+}
+.container details{
+    padding:1em;
+}
+.container p {
+    padding:1em 0em 1em 0.5em;
+    font-weight: bold;
+}
+
+summary {
+    display: block;
+  }
+  
+
+  summary::before {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    content: '>';
+    transition: 0.2s;
+  }
+  
+  details[open] > summary::before {
+    transform: rotate(90deg);
+  }
