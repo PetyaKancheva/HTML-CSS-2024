@@ -3,42 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Flex Basis</title>
-    <link rel="stylesheet" href="flex-basis.css">
+    <title>Property: Align Self</title>
+    <link rel="stylesheet" href="align-self.css">
 </head>
 <body>
-    <h1>flex-basis</h1>
+    <h1>align-self</h1>
 
-    <h2>flex-basis:5em;(default)</h2>
+    <h2>align-self: flex-start</h2>
 
-    <div class="flex-container flex-basis-5em ">
+    <div class="flex-container align-self-flex-start ">
         <div class="flex-item">1</div>
         <div class="flex-item">2</div>
         <div class="flex-item">3</div>
         <div class="flex-item">4</div>
         <div class="flex-item">5</div>
-        <div class="flex-item">6</div>
+    
     </div>
+    
+    <h2>align-self: center</h2>
 
-    <h2>flex-basis:5em;flex-shrink:0; (max-width: 5em)</h2>
-
-    <div class="flex-container flex-basis-5em flex-shrink-zero ">
+    <div class="flex-container align-self-center ">
         <div class="flex-item">1</div>
         <div class="flex-item">2</div>
         <div class="flex-item">3</div>
         <div class="flex-item">4</div>
         <div class="flex-item">5</div>
-        <div class="flex-item">6</div>
+    
     </div>
-    <h2>flex-basis:5em;flex-grow 1: (min-width:5em)</h2>
+    <h2>align-self: <flex-end></flex-end></h2>
 
-    <div class="flex-container flex-basis-5em flex-grow-one ">
+    <div class="flex-container align-self-flex-end ">
         <div class="flex-item">1</div>
         <div class="flex-item">2</div>
         <div class="flex-item">3</div>
         <div class="flex-item">4</div>
         <div class="flex-item">5</div>
-        <div class="flex-item">6</div>
+    
+    </div>
+    <h2>align-self: baseline</h2>
+
+    <div class="flex-container align-self-baseline ">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+    
     </div>
 </body>
 </html>
