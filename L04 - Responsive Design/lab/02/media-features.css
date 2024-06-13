@@ -1,0 +1,57 @@
+@media all{
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  
+    font-family: lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+body::before {
+   
+    background-color: #369;
+    color: #fff;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+    
+}
+}
+
+@media (hoover: none) {
+    body::before {
+        display: block;
+        content: "The page hover is blocked";
+    }
+
+
+}
+@media (orientation: landscape){
+    body::before {
+        display: block;
+        content: "The page is displayed in lansscape mode";
+    }
+}
+@media (width:600px) {
+    body::before {
+        display: block;
+        content: "The page is 600px wide";
+    }
+    
+}
+
+@media (height:800px){
+    body::before {
+        display: block;
+        content: "The page viewport height is 800px";
+    }
+
+}
