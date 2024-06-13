@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ }
+  body{
+     background-color: #eee;
+     padding: 2em;
+     font-size: 14px /1.5 ;
+     font-family: lato , sans-serif;
+  }
+ 
+.container{
+  background-color: white;
+  max-width: 900px;
+  margin:0 auto;
+  border: 1px solid lightgrey;
+  border-radius: 0.3em;
+}
+
+.calender{
+  display: flex;
+}
+
+.calender .week {
+   flex-wrap: wrap;
+  flex-grow: 2;
+ 
+
+}
+.calender div{
+  border: 1px solid lightgrey;
+  padding: 1em;
+}
+
+
+
+
