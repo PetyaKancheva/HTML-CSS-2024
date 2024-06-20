@@ -5,7 +5,7 @@
 
 }
 html{
-    font:14px/1.5em Lato, sans-serif;
+    font:14px/1.5 Lato, sans-serif;
 }
 
 body, input, textarea, select,option{
@@ -19,7 +19,6 @@ body{
 h2 {
     margin-top: 2em;
 }
-
 
 code{
     display:block;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Select</title>
+    <link rel="stylesheet" href="fieldset.css">
+</head>
+
+<body>
+    <h1>Fieldset</h1>
+    <p>The fieldset element is used to group several controls as well as labels within a web form. </p>
+    <code><pre>
+&lt;label for=&quot;pet-select&quot; multiple&gt;Choose your pet:&lt;/label&gt; 
+    &lt;option value=&quot;cow&quot;&gt;Cow&lt;/option&gt; 
+    &lt;option value=&quot;cow&quot;&gt;Cow&lt;/option&gt; 
+    &lt;option value=&quot;cow&quot;&gt;Cow&lt;/option&gt; 
+    &lt;option value=&quot;cow&quot;&gt;Cow&lt;/option&gt; 
+    &lt;option value=&quot;cow&quot;&gt;Cow&lt;/option&gt; 
+&lt;/select&gt;
+                
+    </pre></code>
+
+    <fieldset>
+        <legend>Login</legend>
+        <p class="field">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+        </p>
+        <p class="field">
+            <label for="password">Password</label>
+            <input type="password" name="username" id="password">
+        </p>
+
+       <input type="submit" value="Login">
+    </fieldset>
+</body>
+
+</html>
