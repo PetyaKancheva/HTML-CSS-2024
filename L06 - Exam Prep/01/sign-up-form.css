@@ -12,7 +12,6 @@ html {
 
 body,button,input,textarea {
     font: inherit;
-
 }
 
 body {
@@ -25,14 +24,15 @@ form {
     margin:0 auto;
     background-color: #24333c;
     color: white;
-    padding:4em;
+    padding:2em;
     box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
     border-radius: 0.3em;
+    font-size: 1.8em;
 }
 
 .nav{
     display:flex;
-    margin-bottom: 2em;
+    margin-bottom:1.2em;
 }
 .nav li {
     flex:1 1 auto;
@@ -42,10 +42,9 @@ form {
 .nav a{
     display: block;
     text-align: center;
-    padding: 1.5em;
+    padding: 1em;
     background-color:#435359 ;
     color: #a0b3b0;
-    
     text-decoration: none;
 
 }
@@ -64,12 +63,12 @@ form h2{
     text-align: center;
     font-weight: normal;
     margin-bottom: 2em;
-    text-size-adjust:  2em;
+    text-size-adjust: 2em;
 }
 
 .field{
     position: relative;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
 .field input{
@@ -80,6 +79,7 @@ form h2{
     background-color: transparent;
     color: #8b999e;
     padding:0.3em 0.5em;
+    
 }
 .field label{
     display: block;
