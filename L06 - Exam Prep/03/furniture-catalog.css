@@ -1,0 +1,132 @@
+@import url("o	https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap ");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font:14px/1.5 "PT Sans", sans-serif;
+}
+body, button, input, textarea{
+    font:inherit;
+}
+
+h1 {font-size:2.4em ;}
+h2 {font-size:2.0em ;}
+h3 {font-size:1.8em ;}
+h4 {font-size:1.4em ;}
+h5 {font-size:1.2em ;}
+h6 {font-size:1em ;}
+
+.section.site-catalog{
+    background-color: #60acc1;
+}
+.section.site-furniture{
+    background-color: #fff;
+}
+.section.site-about{
+    background-color: #fff;
+}
+
+body{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.section-banner{
+    padding: 4em 2em;
+}
+.section-banner h2{
+    font-size: 3.5em;
+    padding-bottom: 1em;
+}
+.section-banner p{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.2;
+    
+}
+.section-banner .button-wrapper{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    max-width: 20ch;
+    margin: 0 auto;
+}
+.site-title a{
+    
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -150vw;
+    position: relative;
+    top:2em;
+    
+}
+.section-banner .button{
+    
+    display: block;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.3em;
+    padding: 1em 2em;
+    font-weight: bold;
+    color: #686666;
+    background-color: #e7eef0;
+}
+.wrapper-narrow{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+    
+}
+.wrapper{
+    max-width: 1500px;
+    margin:0 auto;
+    text-align: center;
+}
+.site-footer{
+    background-color: #2d333c;
+    color: #fff;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav{
+    display:flex;
+    gap: 1em;
+    padding:4em 2em;
+    font-weight:bold;
+    font-size: 1em;
+    font-size: 1.2em;
+}
+.main-nav li{
+    list-style: none outside;
+}
+.main-nav a{
+    text-decoration: none;
+    color: black ;
+}
+.flex-columns{
+    display: flex;
+}
+.flex-columns.c2 > *{
+
+    flex: 0 0 45%;
+    gap: 2em;
+}
+.flex-columns.c3 > *{
+
+    flex: 0 0 45%;
+    gap: 2em;
+}
